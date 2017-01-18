@@ -1,0 +1,138 @@
+{  
+   "cardType":[  
+      {  
+         "giftCardCatId":"1",
+         "giftCardCatName":"Occassion",
+         "giftCardSequence":"1",
+         "giftCardColor":"#462066"
+      },
+      {  
+         "giftCardCatId":"2",
+         "giftCardCatName":"Happiness",
+         "giftCardSequence":"2",
+         "giftCardColor":"#FFB85F"
+      },
+      {  
+         "giftCardCatId":"3",
+         "giftCardCatName":"Festival",
+         "giftCardSequence":"3",
+         "giftCardColor":"#FF7A5A"
+      },
+      {  
+         "giftCardCatId":"4",
+         "giftCardCatName":"Emotions",
+         "giftCardSequence":"4",
+         "giftCardColor":"#00AAA0"
+      },
+      {  
+         "giftCardCatId":"5",
+         "giftCardCatName":"Generic",
+         "giftCardSequence":"5",
+         "giftCardColor":"#F59ABE"
+      },
+      {  
+         "giftCardCatId":"6",
+         "giftCardCatName":"Invitation",
+         "giftCardSequence":"6",
+         "giftCardColor":"#6DD0F2"
+      }
+   ],
+   "cardItems":[
+      {  
+         "id":"GC1",
+         "name":"Thanksgiving card",
+         "price":"200",
+         "category":"Happiness",
+         "sub-category":"Thanksgiving",
+         "quote":"Here's wishing you a holi filled with sweet moments and colourful memories to cherish forever!"
+      },
+      {  
+         "id":"GC2",
+         "name":"Happy Birthday card",
+         "price":"300",
+         "category":"Occassion",
+         "sub-category":"Birthday",
+         "quote":"May God bless you with lots of love, happiness and success!"
+      },
+      {  
+         "id":"GC3",
+         "name":"Sorry card",
+         "price":"300",
+         "category":"Generic",
+         "sub-category":"Generic",
+         "quote":"I'm Sorry. Hope you will forgive me!"
+      },
+      {  
+         "id":"GC4",
+         "name":"I love you card",
+         "price":"300",
+         "category":"Emotions",
+         "sub-category":"Love",
+         "quote":"I love you!"
+      },
+      {  
+         "id":"GC5",
+         "name":"Congratulations",
+         "price":"200",
+         "category":"Happiness",
+         "sub-category":"Congratulations",
+         "quote":"Wishing you success and good luck all through your life!"
+      },
+      {  
+         "id":"GC6",
+         "name":"Thanks for Everything Card",
+         "price":"100",
+         "category":"Happiness",
+         "sub-category":"Thanksgiving",
+         "quote":"Expressing Thank you for your wonderful gift. I'm truly grateful"
+      },
+      {  
+         "id":"GC7",
+         "name":"Happy Diwali",
+         "price":"400",
+         "category":"Festival",
+         "sub-category":"Diwali",
+         "quote":"May this Diwali fulfil all your dreams and brings happiess to your life forever!"
+      },
+      {  
+         "id":"GC8",
+         "name":"Get well soon",
+         "price":"100",
+         "category":"Generic",
+         "sub-category":"Generic",
+         "quote":"Get well soon!"
+      },
+      {  
+         "id":"GC9",
+         "name":"God bless you",
+         "price":"100",
+         "category":"Generic",
+         "sub-category":"Generic",
+         "quote":"God bless you on your journey!"
+      },
+      {  
+         "id":"GC10",
+         "name":"Happy Holi",
+         "price":"300",
+         "category":"Festival",
+         "sub-category":"Holi",
+         "quote":"May your life be colourful with the colours of joy, happiness, friendship and love!"
+      },
+      {  
+         "id":"GC11",
+         "name":"Party Invitation Card",
+         "price":"500",
+         "category":"Invitation",
+         "sub-category":"Parties",
+         "quote":"See you on the D-day!"
+      },
+      {  
+         "id":"GC12",
+         "name":"Farewell",
+         "price":"100",
+         "category":"Generic",
+         "sub-category":"Farewell",
+         "quote":"Wish you immense success for your future endeavours"
+      }
+   ]
+}

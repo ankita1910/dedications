@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app = "myApp">
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script type="text/javascript" src="listing.js"></script>
+	<title>Lising</title>
+</head>
+<body>
+	<div ng-controller = "myController">
+		<div ng-repeat = "cardType in jsonData.cardType">
+			<span ng-click = "setFilter(cardType.giftCardCatName)">
+				{{cardType.giftCardCatName}}
+			</span>
+		</div>
+		<div ng-repeat = "cardItem in jsonData.cardItems | filter : categoryName">
+			<div ng-style = "{'background-color' : getColor()}">
+				<p> {{cardItem.category}}</p>
+				<p> {{cardItem.name}}</p>
+				<p> {{cardItem.price}}</p>
+				<p> {{cardItem.quote}}</p>
+				<br>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

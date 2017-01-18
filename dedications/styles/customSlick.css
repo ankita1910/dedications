@@ -1,0 +1,23 @@
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+}
+
+.slick-slide {
+	height:300px;
+}
+
+/*.slick-slide img {
+	height:10px;
+	width:200px;
+}*/
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+.slick-dots {
+	bottom: -40px;
+}

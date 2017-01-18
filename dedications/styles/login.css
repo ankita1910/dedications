@@ -1,0 +1,198 @@
+body{
+	overflow: hidden;
+}
+.overlay{
+	opacity: 1;
+	display: block;
+	z-index:2;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+}
+.main-container{
+	width: 100%;
+	font-family: montserrat;
+}
+.grids{
+	width: 100%;
+	height: 500px;
+}
+.grids-holder{
+
+}
+.grid-row{
+	width: 100%;	
+	float: left;
+}
+.grid-element{
+	width: 22%;
+	float: left;
+	height: 200px;
+	padding: 20px;
+}
+.grid-element img{
+	width: 100%;
+}
+#one-one{
+	background-color: #462066;
+}
+#one-two{
+	background-color: #FFB85F;
+}
+#one-three{
+	background-color: #6DD0F2;
+}
+#one-four{
+	background-color: #00AAA0;
+}
+#two-one{
+	background-color: #8ED2C9;
+}
+#two-two{
+	background-color: #F59ABE;
+}
+#two-three{
+	background-color: #FF7A5A;
+}
+#two-four{
+	background-color: #FFD966;
+}
+#three-one{
+	background-color: #FF7A5A;
+}
+#three-two{
+	background-color: #FFD966;
+}
+#three-three{
+	background-color: #462066;
+}
+#three-four{
+	background-color: #F59ABE;
+}
+.modal{
+	width: 40%;
+	height: 400px;
+	background-color: transparent;
+	z-index: 4;
+	position: absolute;
+	/*border: 1px solid black;*/
+	top: 20%;
+	left: 32%;
+	font-family: montserrat;
+}
+.__title{
+	margin: auto;
+	text-align: center;
+	font-family: pacifico;
+	color: red;
+	font-size: 40px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.__title-desc{
+	text-align: right;
+	color: red;
+	font-size: 20px;
+	font-family: pacifico;
+	font-weight: 800;
+	padding-right: 30px;
+}
+.__welcome-text{
+	text-align: center;
+	color: #fff;
+	/*font-weight: 800;*/
+	font-family: pacifico;
+	letter-spacing: 3px;
+	font-size: 22px;
+}
+.credentials{
+	margin: auto;
+	width: 80%;
+	margin-top: 30px;
+}
+.credentials input{
+	width: 90%;
+	padding: 15px;
+	margin: auto;
+	margin-bottom: 30px;
+	background-color: transparent;
+	border: 2px solid #fff;
+	box-shadow: 1px 1px 1px #fff;
+	color: #fff;
+	font-weight: 400;
+	font-family: Montserrat;
+	font-size: 16px;
+}
+.credentials input:focus{
+	outline: none;
+	border: 3px solid #49ba8e;
+	box-shadow: 1px 1px 1px #49ba8e;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.proceed{
+	background-color: red;
+	width: 76.5%;
+	margin-left:10.5%;
+	/*border: 2px solid #fff;*/
+	color: #fff;
+	font-weight: 800;
+	text-align: center;
+	padding: 12px 8px 12px 0px;
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+.not-connected{
+	width: 80%;
+	margin: auto;
+	color: #fff;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 400;
+}
+.not-connected .register-link{
+	color: white;
+	font-weight: 800;
+	cursor: pointer;
+	background: red;
+	padding: 6px;
+	margin-left: 10px;
+}
+.not-connected .register-link:hover{
+	background: white;
+	color: red;
+}
+.login-container{
+	/*display: none;*/
+}
+.register-container{
+	top: 0px;
+	display: none;
+}
+.register-container .credentials{
+	margin-top: 10px;
+}
+.register-container .credentials input{
+	margin-bottom: 5px;
+}
+.register-container .credentials .error-msg{
+	margin-bottom: 12px;
+	color: red;
+	font-weight: 600;
+}
+.error-msg{
+	margin-bottom: 12px;
+	color: red;
+	font-weight: 600;
+}
+
+.login a{
+	text-decoration: none;
+}

@@ -1,0 +1,132 @@
+{  
+   "cardType":[  
+      {  
+         "giftCardCatId":"1",
+         "giftCardCatName":"Occassion",
+         "giftCardSequence":"1"
+      },
+      {  
+         "giftCardCatId":"2",
+         "giftCardCatName":"Happiness",
+         "giftCardSequence":"2"
+      },
+      {  
+         "giftCardCatId":"3",
+         "giftCardCatName":"Festival",
+         "giftCardSequence":"3"
+      },
+      {  
+         "giftCardCatId":"4",
+         "giftCardCatName":"Emotions",
+         "giftCardSequence":"4"
+      },
+      {  
+         "giftCardCatId":"5",
+         "giftCardCatName":"Generic",
+         "giftCardSequence":"5"
+      },
+      {  
+         "giftCardCatId":"6",
+         "giftCardCatName":"Invitation",
+         "giftCardSequence":"6"
+      }
+   ],
+   "cardItems":[
+      {  
+         "id":"GC1",
+         "name":"Thanksgiving card",
+         "price":"200",
+         "category":"Happiness",
+         "sub-category":"Thanksgiving",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC2",
+         "name":"Happy Birthday card",
+         "price":"300",
+         "category":"Occassion",
+         "sub-category":"Birthday",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC3",
+         "name":"Sorry card",
+         "price":"300",
+         "category":"Generic",
+         "sub-category":"Generic",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC4",
+         "name":"I love you card",
+         "price":"300",
+         "category":"Emotions",
+         "sub-category":"Love",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC5",
+         "name":"Congratulations",
+         "price":"200",
+         "category":"Happiness",
+         "sub-category":"Congratulations",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC6",
+         "name":"Thanks for Everything Card",
+         "price":"100",
+         "category":"Happiness",
+         "sub-category":"Thanksgiving",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC7",
+         "name":"Happy Diwali",
+         "price":"400",
+         "category":"Festival",
+         "sub-category":"Diwali",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC8",
+         "name":"Get well soon",
+         "price":"100",
+         "category":"Generic",
+         "sub-category":"Generic",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC9",
+         "name":"God bless you",
+         "price":"100",
+         "category":"Generic",
+         "sub-category":"Generic",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC10",
+         "name":"Happy Holi",
+         "price":"300",
+         "category":"Festival",
+         "sub-category":"Holi",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC11",
+         "name":"Party Invitation Card",
+         "price":"500",
+         "category":"Invitation",
+         "sub-category":"Parties",
+         "quote":"Hey, hi!"
+      },
+      {  
+         "id":"GC12",
+         "name":"Farewell",
+         "price":"100",
+         "category":"Generic",
+         "sub-category":"Farewell",
+         "quote":"Hey, hi!"
+      }
+   ]
+}

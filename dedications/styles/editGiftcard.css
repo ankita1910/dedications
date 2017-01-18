@@ -1,0 +1,322 @@
+.edit-body-section{
+	width: 100%;
+	background: #f2f2f2;
+	padding: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.banner-image{
+	width: 100%;
+	height: 200px;
+}
+.edit-sections{
+	width: 80%;
+	margin: auto;
+	height: 1000px;
+	font-family: montserrat;
+}
+.edit-left-section{
+	width: 40%;
+	height: 800px;
+	float: left;
+	background: white;
+	margin-right: 65px;
+	border: 1px solid #f2f2f2;
+	padding: 15px;
+}
+.edit-right-section{
+	width: 48%;
+	/*height: 800px;*/
+	background: #A290D4;
+	float: left;
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+}
+.left-title{
+	font-size: 22px;
+	text-align: center;
+	font-family: pacifico;
+	color: red;
+	font-weight: 800;
+	letter-spacing: 3px;
+	margin-top: 20px;
+}
+.left-details{
+	font-family: montserrat;
+	margin-top: 30px;
+}
+.cover-banner{
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+}
+.cover-banner img{
+	width: 100%;
+	height: 200px;
+}
+.right-details{
+
+}
+.gift-card-image img{
+	width: 200px;
+	height: 200px;
+}
+.gift-card-image{
+	float: left;
+}
+.gift-card-quote{
+	float: left;
+}
+.trending-showcase{
+	display: none;
+}
+.trending-showcase .trending-title{
+	font-size: 22px;
+	text-align: center;
+	font-family: pacifico;
+	color: red;
+	font-weight: 800;
+	letter-spacing: 3px;
+}
+.showcase-image-container{
+	width: 85%;
+	height: 200px;
+	margin: auto;
+	margin-top: 30px;
+}
+.showcase-image{
+	float: left;
+	margin-right: 20px;
+}
+.showcase-image img{
+	width: 200px;
+	height: 200px;
+}
+.date-holder{
+	border: 1px solid #666;
+	width: 150px;
+	margin-top: 10px;
+	padding: 5px;
+	border-radius: 6px;
+}
+.date-holder input{
+	border: 0;
+	outline: none !important;
+}
+.left-details td{
+	width: 150px;
+	height: 25px;
+	font-family: montserrat;
+}
+.choose-gradient{
+	font-family: pacifico;
+	color: red;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.choose-gradient .color-pallete{
+	width: 100%;
+	height: 115px;
+	margin-top: 10px;
+	border-radius: 6px;
+	border: 1px solid #dfe3e7;
+}
+.color-pallete .colors{
+	/*padding: 10px;*/
+	width: 100%;
+}
+.color-pallete .pallete{
+	width: 40px;
+	height: 40px;
+	border-radius: 6px;
+	border: 1px solid #dfe3e7;
+	float: left;
+	margin: 4px;
+	cursor: pointer;
+}
+.color-pallete .pallete:hover{
+}
+.choose-gradient select{
+	margin-left: 15px;
+}
+.receiver-details{
+	margin-top: 30px;
+	border: 1px solid #dfe3e7;
+	border-radius: 6px;
+	padding: 15px;
+	position: relative;
+}
+.receiver-details .receiver-title{
+	font-family: pacifico;
+    color: red;
+    font-size: 20px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -20px;
+    background: white;
+    min-width: 180px;
+    text-align: center;
+}
+.receiver-details .__details{
+	line-height: 25px;
+	padding-top: 10px;
+}
+.__details .__text, .__details .__value{
+	float: left;
+	min-width: 100px;
+}
+.__details .__text{
+	padding-top: 8px;
+}
+.__details input{
+	border: 1px solid #999;
+	font-size: 18px;
+	min-width: 270px;
+	border-radius: 6px;
+	padding: 10px;
+}
+.__details input:hover, .__details input:focus{
+	outline: none !important;
+	border: 1px solid #333;
+	border-radius: 6px;
+}
+.__rname, .__remail, .__rphone{
+	clear: both;
+	min-height: 55px;
+}
+.giftcard-msg{
+	margin-top: 20px;
+}
+.available-msg .__title, .custom-msg .__title, .scheduled-date .__title{
+	font-family: pacifico;
+	font-size: 20px;
+	color: red;
+	letter-spacing: 2px;
+}
+.__message-list{
+	border: 1px solid #dfe3e7;
+    /*padding: 8px 10px;*/
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.__message-list .__list{
+	display: none;
+}
+.__list-item{
+	padding: 10px;
+}
+.__list-item:hover{
+	background-color: #f2f2f2;
+}
+.custom-msg, .scheduled-date{
+	margin-top: 10px;
+}
+.__message input{
+	width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none !important;
+    border: 1px solid #dfe3e7;
+    min-height: 50px;
+}
+
+.quotes{
+background-color: #f2f2f2;
+padding: 10px;	
+border-radius: 6px;
+width:100%;
+}
+.send-card{
+	padding-top: 20px;
+	float: right;
+}
+.send-card .__save, .send-card .__send{
+	background-color: red;
+	color: white;
+	padding: 12px;
+	float: left;
+	margin-right: 20px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px #fff;
+	border-radius: 4px;
+}
+.see-preview{
+	font-size: 12px;
+	color: red;
+	margin-top: 10px;
+	float: right;
+	font-weight: 600;
+}
+.see-preview img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+.main-title{
+	color: white;
+	font-size: 24px;
+	font-family: pacifico;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.right-details{
+	color: white;
+	margin-top: 30px;
+}
+.right-details .receiver-name{
+	font-family: Yesteryear;
+	font-size: 40px;
+}
+.right-details .message{
+	font-family: yesteryear;
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 2px;
+}
+.right-details .sender-name{
+	margin-top: 30px;
+}
+.right-details .sender-name .__name{
+	font-family: yesteryear;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.bottom-band{
+	display: none;
+	background: white;
+	color: #666;
+	width: 60%;
+	height: 160px;
+	margin: auto;
+	border-radius: 12px;
+}
+.sending-memories .__title{
+	font-size: 12px;
+	text-align: center;
+	color: red;
+	font-weight: 600;
+}
+.image-tile{
+	width: 240px;
+	margin: auto;
+	height: 130px;
+	margin-top: 12px;
+}
+.image-memory{
+	width: 120px;
+	height: 120px;
+	float: left;
+	overflow: hidden;
+	border-radius: 25px;
+}
+.image-memory img{
+	width: 120px;
+	height: 120px;
+}
+.copyrights{
+	clear: both;
+	font-size: 10px;
+	text-align: right;
+}

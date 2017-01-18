@@ -1,0 +1,140 @@
+<!Doctype html>
+<head>
+	<link rel="stylesheet" href="../styles/login.css" type="text/css" />
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="overlay"></div>
+	<div class="main-container">
+		<div class="grids">
+			<div class="grids-holder">
+				<div class="grid-row" id="row-one">
+					<div class="grid-element" id="one-one">
+						<img src="../contents/happy1.jpg">
+					</div>
+					<div class="grid-element" id="one-two">
+						<img src="../contents/happy2.jpg">
+					</div>
+					<div class="grid-element" id="one-three">
+						<img src="../contents/happy7.jpg">
+					</div>
+					<div class="grid-element" id="one-four">
+						<img src="../contents/happy4.jpg">
+					</div>
+				</div>
+				<div class="grid-row" id="row-two">
+					<div class="grid-element" id="two-one">
+						<img src="../contents/happy5.jpg">
+					</div>
+					<div class="grid-element" id="two-two">
+						<img src="../contents/happy6.jpg">
+					</div>
+					<div class="grid-element" id="two-three">
+						<img src="../contents/happy3.jpg">
+					</div>
+					<div class="grid-element" id="two-four">
+						<img src="../contents/happy8.jpg">
+					</div>
+				</div>
+				<div class="grid-row" id="row-three">
+					<div class="grid-element" id="three-one">
+						<img src="../contents/happy9.jpg">
+					</div>
+					<div class="grid-element" id="three-two">
+						<img src="../contents/happy10.jpg">
+					</div>
+					<div class="grid-element" id="three-three">
+						<img src="../contents/happy11.jpg">
+					</div>
+					<div class="grid-element" id="three-four">
+						<img src="../contents/happy12.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="login-container modal">
+		<div class="__title">
+			Dedications
+		</div>
+		<div class="__title-desc">
+			Sharing is happiness!
+		</div>
+		<div class="credentials">
+			<div class="email">
+				<input type="text" placeholder="Enter your Email" id="login-email">
+				<div class="error-msg" id="login-email-validation-msg">
+				</div>
+			</div>
+
+			<div class="password">
+				<input type="password" placeholder="Enter your Password" id="login-pwd">
+				<div class="error-msg" id="login-pwd-validation-msg">
+				</div>
+			</div>
+			<div id="invalid-login" class="error-msg" >
+				
+			</div>
+		</div>
+		<div class="login-btn proceed" id="login-button">
+			LOGIN
+		</div>
+		<div class="not-connected">
+			Still not connected <span class="register-link">REGISTER NOW</span>
+		</div>
+	</div>
+	<div class="register-container modal">
+		<div class="__title">
+			Dedications
+		</div>
+		<div class="__title-desc">
+			Sharing is happiness!
+		</div>
+		<div class="__welcome-text">
+			Welcome to the world of Awesomeness!
+		</div>
+		<div class="credentials">
+			<div class="name">
+				<input type="text" placeholder="First name" id="r-name">
+				<input type="text" placeholder="Last name" id="l-name">
+				<div class="error-msg" id="name-validation-msg">
+				</div>
+			</div>
+			<div class="email">
+				<input type="text" placeholder="Email ID" id="r-email">
+				<div class="error-msg" id="email-validation-msg">
+				</div>
+			</div>
+			<div class="password">
+				<input type="password" placeholder="Password" id="r-password">
+				<div class="error-msg" id="pwd-validation-msg">
+				</div>
+			</div>
+			<div class="confrm-password">
+				<input type="password" placeholder="Confirm Password" id="r-cpassword">
+				<div class="error-msg" id="c-pwd-validation-msg">
+				</div>
+			</div>
+			<div class="mobile">
+				<input type="text" placeholder="Mobile no." id="r-mobile">
+				<div class="error-msg" id="mobile-no-validation-msg">
+				</div>
+			</div>
+		</div>
+		<div class="register-btn proceed" id="register-user">
+			REGISTER
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../scripts/loginFormValidation.js"></script>
+	<script type="text/javascript" src="../scripts/registrationFormValidation.js"></script>
+</body>
+<script type="text/javascript">
+	$(".register-link").click(function(){
+		$(".login-container").css("display", "none");
+		$(".register-container").css("display", "block");
+	});
+</script>
+</html>
